@@ -18,7 +18,7 @@ A Python script (hash_generator.py) was created to hash passwords using SHA-512.
 
 A smaller version of rockyou.txt was used as wordlist.
 
-Example usage:
+Usage:
 
 python hash_generator.py <password> > hash.txt
 
@@ -33,7 +33,7 @@ Commands executed:
 john --format=Raw-SHA512 --wordlist=rockyousmall.txt hash.txt
 john --format=Raw-SHA512 --show hash.txt
 
-Implemented a custom dictionary attack in Python using a predefined wordlist.
+Custom dictionary attack implemented in Python using a predefined wordlist.
 
 3️⃣ Brute-Force Attack
 
