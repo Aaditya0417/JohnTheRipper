@@ -1,2 +1,2 @@
 # JohnTheRipper
-A replica of John the Ripper implementing dictionary and brute-force attacks for password cracking.
+A replica of John the Ripper implementing dictionary, brute-force and mask attacks for password cracking.
