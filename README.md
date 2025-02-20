@@ -14,8 +14,9 @@ Both JtR and a Python-based approach were used to hash and crack passwords effic
 
 1️⃣ Hashing Passwords
 
-A Python script (generator.py) was created to hash passwords using SHA-512.
-a smaller version of rockyou.txt was used as wordlist.
+A Python script (hash_generator.py) was created to hash passwords using SHA-512.
+
+A smaller version of rockyou.txt was used as wordlist.
 
 Example usage:
 
