@@ -21,6 +21,7 @@ def brute_force_attack():
         for guess in itertools.product(charset, repeat=length):
             guess = "".join(guess)
             guess_hash = hashlib.sha256((salt + guess).encode()).hexdigest()
+            print(guess_hash)
             if guess_hash == target_hash:
                 print(f"🔓 Password Found: {guess}")
                 return
